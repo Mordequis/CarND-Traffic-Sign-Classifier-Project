@@ -20,10 +20,8 @@ Image data shape = (32, 32, 3)
 Number of unique classes/labels = 43
 ```
 
-- ####TODO Include an exploratory visualization of the dataset.
+- ####Looking at the number of each traffic sign type in each data set, you can see it is not uniform which means the model may not be equally good at classifying two given signs and the accuracy classifying validation and test data sets may differ from the training set.
 
-
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
 ![alt text][image1]
 
@@ -217,7 +215,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 
 [//]: #	"Image References"
-[image1]: ./examples/visualization.jpg	"Data Set Visualization"
+[image1]: ./writeup_images/visualization.png	"Data Set Visualization"
 [image2]: ./writeup_images/grayscale.png	"Grayscaling"
 [image3]: ./examples/random_noise.jpg	"Random Noise"
 [image4]: ./new_images/web1.png	"Traffic Sign 1"
